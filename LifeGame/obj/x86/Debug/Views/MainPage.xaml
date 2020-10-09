@@ -1,0 +1,44 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LifeGame.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    mc:Ignorable="d">
+    <Grid x:ConnectionId='2' x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+        <ItemsControl x:ConnectionId='3'                                          >
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas x:Name="gameField"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Rectangle Width="{Binding Size.Width}" Height="{Binding Size.Height}" Fill="{Binding Color}">
+                        <Rectangle.RenderTransform>
+                            <TranslateTransform
+                                X="{Binding Position.X}"
+                                Y="{Binding Position.Y}"/>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <Button x:ConnectionId='4' Content="Start"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Margin="0,0,0,50"
+                Width="712" Height="56"
+                FontSize="30"
+                CornerRadius="30"
+                Background="CornflowerBlue"
+                Foreground="White"
+                FontWeight="SemiBold"
+                CharacterSpacing="100"
+                                                         
+                                                      
+                />
+    </Grid>
+</Page>
+

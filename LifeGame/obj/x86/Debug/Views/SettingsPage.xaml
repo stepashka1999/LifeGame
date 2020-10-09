@@ -1,0 +1,92 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LifeGame.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LifeGame.Views"
+    xmlns:gc="using:LifeGame.Core.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock
+            Text="Game Configuration"
+            VerticalAlignment="Top"
+            Margin="30,60,0,0"
+            FontSize="40"
+            Height="60"
+            FontWeight="Bold"
+            Grid.ColumnSpan="1"
+            Grid.Column="0"
+            
+            />
+        <TextBox x:ConnectionId='2'
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="40,160,0,0"
+                                                            
+            Header="Life Count:"
+            FontSize="30"
+            FontWeight="SemiBold"
+            Height="100"
+            Width="520"
+            Grid.Column="0"
+            />
+        <TextBox x:ConnectionId='3'
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="40,280,0,0"
+                                                            
+            Header="Food Count Per Tic:"
+            FontSize="30"
+            FontWeight="SemiBold"
+            Height="100"
+            Width="520"
+            CornerRadius="7"
+            Grid.Column="0"
+            />
+        <TextBox x:ConnectionId='4'
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="40,400,0,0"
+                                                           
+            Header="Food Size:"
+            FontSize="30"
+            FontWeight="SemiBold"
+            Height="100"
+            Width="520"
+            CornerRadius="7"
+            Grid.Column="0"
+            />
+        <Button x:ConnectionId='5'
+            Content="Save"
+            Margin="40, 560, 0, 0"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Height="60"
+            Width="520"
+            CornerRadius="30"
+            FontSize="30"
+            FontWeight="Bold"
+            Background="CornflowerBlue"
+            Foreground="White"
+                                                    
+            />
+        <TextBlock
+            Text="Another Configuration(In Process)"
+            VerticalAlignment="Top"
+            Margin="30,60,0,0"
+            FontSize="40"
+            Height="60"
+            FontWeight="Bold"
+            Grid.ColumnSpan="1"
+            Grid.Column="1"
+            />
+    </Grid>
+</Page>
+

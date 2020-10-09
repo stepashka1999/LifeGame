@@ -1,0 +1,11 @@
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\bin\Debug\netstandard2.0\LifeGame.Core.deps.json
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\bin\Debug\netstandard2.0\LifeGame.Core.dll
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\bin\Debug\netstandard2.0\LifeGame.Core.pdb
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.AssemblyInfo.cs
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.csproj.CopyComplete
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.dll
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.pdb
+D:\Visual Studio Projects\LifeGame\LifeGame.Core\obj\Debug\netstandard2.0\LifeGame.Core.csprojAssemblyReference.cache
