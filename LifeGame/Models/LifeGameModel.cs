@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using Windows.System.Threading;
 using Windows.UI;
@@ -119,6 +120,20 @@ namespace LifeGame.Core.Models
 
         private void MoveDots()
         {
+            var lifeList = LifeDots.Where(x => x is LifeModel).ToList();
+            if(lifeList.Count == 3)
+            {
+                var generator = new SimpleGA((LifeModel)lifeList[0], (LifeModel)lifeList[1]);
+                var lifes = generator.CreateNewGeneration(10);
+                foreach(var life in lifes)
+                {
+                    life.Color = new SolidColorBrush(Colors.Red);
+                    LifeDots.Add(life);
+                }
+                LifeDots.Remove(lifeList[1]);
+                LifeDots.Remove(lifeList[0]);
+            }
+
             foreach (var item in LifeDots)
             {
                 if (item is LifeModel)

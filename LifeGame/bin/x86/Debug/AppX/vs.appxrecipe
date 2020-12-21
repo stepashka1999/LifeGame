@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-09T03:56:20.609</Modified>
+      <Modified>2020-12-04T03:24:41.939</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\LifeGame.exe">
       <PackagePath>entrypoint\LifeGame.exe</PackagePath>
-      <Modified>2020-10-09T03:56:18.946</Modified>
+      <Modified>2020-12-04T03:24:38.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stepa\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -100,7 +100,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame.Core\bin\Debug\netstandard2.0\LifeGame.Core.dll">
       <PackagePath>LifeGame.Core.dll</PackagePath>
-      <Modified>2020-10-09T03:51:57.831</Modified>
+      <Modified>2020-12-03T18:02:05.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -150,39 +150,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.839</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.840</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2020-10-09T03:56:18.840</Modified>
+      <Modified>2020-12-03T18:10:00.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -202,7 +202,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\LifeGame\LifeGame\bin\x86\Debug\Core\LifeGame.exe">
       <PackagePath>LifeGame.exe</PackagePath>
-      <Modified>2020-10-09T03:56:20.605</Modified>
+      <Modified>2020-12-04T03:24:41.928</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

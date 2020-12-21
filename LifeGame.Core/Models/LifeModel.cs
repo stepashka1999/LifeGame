@@ -11,19 +11,22 @@ namespace LifeGame.Core.Models
 {
     public class LifeModel : PointModel
     {
-        private int speed;
+        public int Speed { get; private set; }
+        public double Saturation { get; private set; }
+        private readonly int maxSize = 25;
 
         public LifeModel(LifeConfiguration configuration) 
             : base(configuration.Position, configuration.Size)
         {
-            speed = configuration.Speed;
+            Speed = configuration.Speed;
+            Saturation = ((double)configuration.SaturationValue)/10;
         }
         public LifeModel(int maxX, int maxY, Size size) 
             : base(maxX, maxY, size) { }
 
         private PointModel targetPoint = null;
 
-
+        //ToDo
         private Point MoveRandom()
         {
             var rnd = new Random();
@@ -45,8 +48,8 @@ namespace LifeGame.Core.Models
             if (targetPoint == null) 
                 return Position;
 
-            var dx = position.X > targetPoint.position.X ? -speed : speed;
-            var dy = position.Y > targetPoint.position.Y ? -speed : speed;
+            var dx = position.X > targetPoint.position.X ? -Speed : Speed;
+            var dy = position.Y > targetPoint.position.Y ? -Speed : Speed;
 
             var pos = Position;
             pos.Offset(dx, dy);
@@ -55,6 +58,7 @@ namespace LifeGame.Core.Models
             return Position;
         }
 
+        //ToDo
         private int GetMoveMode()
         {
             var rnd = new Random();
@@ -101,12 +105,12 @@ namespace LifeGame.Core.Models
         private int Eat(Food food)
         {
             if (targetPoint == food) targetPoint = null;
+
             food.IsAlive = false;
+            var tempSize = Size.Width + food.Size.Width;
+            var newSize = tempSize > maxSize ? maxSize : tempSize;
+            Size = new Size(newSize, newSize);
 
-            var newSizeX = Size.Width + food.Size.Width;
-            var newSizeY = Size.Height + food.Size.Height;
-
-            Size = new Size(newSizeX, newSizeY);
             return 1;
         }
 
